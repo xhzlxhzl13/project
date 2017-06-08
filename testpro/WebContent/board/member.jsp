@@ -35,7 +35,7 @@
 			</nav>
 		</header>
 		
-		<!--section1  -->
+		<!--section123  -->
 		<section>
 
 			<form action="/testpro/MemberUpdate.do" method="post">
