@@ -35,7 +35,7 @@ public class BoardFrontController extends HttpServlet {
 		Action action = null;
 		ActionForward forward = null;
 		
-		//회원가입
+		//�쉶�썝媛��엯
 		if(command.equals("/BoardAddAction.do")){
 			try {
 				action = new BoardAddAction();
@@ -44,7 +44,7 @@ public class BoardFrontController extends HttpServlet {
 				e.printStackTrace();
 			}
 		
-		//로그인	
+		//濡쒓렇�씤	////1
 		}else if(command.equals("/BoardLogin.do")){
 			try {
 				action = new BoardLogin();
@@ -53,7 +53,7 @@ public class BoardFrontController extends HttpServlet {
 				e.printStackTrace();
 			}
 			
-		//로그아웃	
+		//濡쒓렇�븘�썐	
 		}else if(command.equals("/Logout.do")){
 			try {
 				action = new Logout();
@@ -62,7 +62,7 @@ public class BoardFrontController extends HttpServlet {
 				e.printStackTrace();
 			}
 		
-		//회원정보 구함	
+		//�쉶�썝�젙蹂� 援ы븿	
 		}else if(command.equals("/MemberFind.do")){
 			try{
 				action = new MemberFind();
@@ -71,7 +71,7 @@ public class BoardFrontController extends HttpServlet {
 				e.printStackTrace();
 			}
 			
-		//회원정보 수정	
+		//�쉶�썝�젙蹂� �닔�젙	
 		}else if(command.equals("/MemberUpdate.do")){
 			try {
 				action = new MemberUpdate();
